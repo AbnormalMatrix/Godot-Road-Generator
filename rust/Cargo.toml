@@ -1,0 +1,11 @@
+[package]
+name = "test_crate"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ghx_proc_gen = "0.8.0"
+godot = "0.4.5"
