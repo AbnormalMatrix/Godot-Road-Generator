@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dm8i0ao1530up"]
+
+[ext_resource type="PackedScene" uid="uid://6mk61tk1ot58" path="res://road_models/GLB format/tile-low.glb" id="1_7i2x8"]
+
+[node name="sidewalk" type="Node3D" unique_id=144760205]
+
+[node name="tile-low2" parent="." unique_id=246781951 instance=ExtResource("1_7i2x8")]

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bru2yr1j3u3tt"]
+
+[ext_resource type="PackedScene" uid="uid://bgojgr1i3tw7v" path="res://road_models/GLB format/road-bend-sidewalk.glb" id="1_20w2a"]
+
+[node name="curved_road" type="Node3D" unique_id=52204472]
+
+[node name="road-bend-sidewalk2" parent="." unique_id=1587001433 instance=ExtResource("1_20w2a")]

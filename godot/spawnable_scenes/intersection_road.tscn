@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://su7vmtx7qwm6"]
+
+[ext_resource type="PackedScene" uid="uid://bgqg7fpvim86y" path="res://road_models/GLB format/road-crossroad.glb" id="1_ar08m"]
+
+[node name="intersection_road" type="Node3D" unique_id=111104528]
+
+[node name="road-crossroad2" parent="." unique_id=218570055 instance=ExtResource("1_ar08m")]

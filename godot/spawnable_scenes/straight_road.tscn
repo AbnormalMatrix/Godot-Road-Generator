@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cvdkrxk131hnf"]
+
+[ext_resource type="PackedScene" uid="uid://y2c3no22e8db" path="res://road_models/GLB format/road-straight.glb" id="1_k3uia"]
+[ext_resource type="PackedScene" uid="uid://d4h6p0tdpld4i" path="res://road_models/GLB format/light-curved.glb" id="2_2miox"]
+
+[node name="StraightRoad" type="Node3D" unique_id=1920444830]
+
+[node name="road-straight2" parent="." unique_id=1603726557 instance=ExtResource("1_k3uia")]
+
+[node name="light-curved2" parent="." unique_id=284833968 instance=ExtResource("2_2miox")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2660248, 0, 0.4286439)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=1689112806]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -0.26370436, 0.6310748, 0.25244388)
+light_color = Color(1, 0.79990137, 0.34294596, 1)
+shadow_enabled = true
+spot_range = 1.8939122
+spot_angle = 55.812664
